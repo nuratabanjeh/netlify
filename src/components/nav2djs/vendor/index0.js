@@ -79,7 +79,7 @@ var Nav2d = function (_Component) {
 
 Nav2d.defaultProps = {
   ros: new ROSLIB.Ros({
-    url: 'wss://3.141.4.113:9090'
+    url: 'ws://3.141.4.113:9090'
   }),
   id: 'nav2d',
   width: 800,
