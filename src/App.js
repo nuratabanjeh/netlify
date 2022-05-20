@@ -37,7 +37,7 @@ function App() {
          
               <div style={{display:"flex" , marginLeft:"32%"}} >
            <Icons />
-              <Nav2D id="nav2d" width={500} height={500} ros={fnURL('ws://3.141.4.113:9090')} />
+              <Nav2D id="nav2d" width={500} height={500} ros={fnURL('wss://3.141.4.113:9090')} />
               </div>
               <UseNipple
                         style={{color:"white"}} 
